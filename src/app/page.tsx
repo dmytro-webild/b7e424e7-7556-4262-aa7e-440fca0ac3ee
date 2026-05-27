@@ -148,20 +148,20 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p-exhaust",          name: "Performance Exhaust System",          price: "THB 35,000",          imageSrc: "http://img.b2bpic.net/free-photo/mechanic-servicing-car_1170-1336.jpg",          imageAlt: "High-performance exhaust system"},
+          id: "p-ecu-tune",          name: "Performance Engine ECU Tune",          price: "THB 25,000",          imageSrc: "http://img.b2bpic.net/free-photo/car-servicing-checking-oil-liquid-engine_350284-18456.jpg",          imageAlt: "Performance Engine ECU Tune"},
         {
-          id: "p-turbo",          name: "Advanced Turbocharger Kit",          price: "THB 75,000",          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-time-machine_23-2151599437.jpg",          imageAlt: "Advanced car turbocharger"},
+          id: "p-suspension",          name: "Sport Suspension Kit",          price: "THB 40,000",          imageSrc: "http://img.b2bpic.net/free-photo/shock-absorber_23-2149594191.jpg",          imageAlt: "Sport Suspension Kit"},
         {
-          id: "p-brakes",          name: "Big Brake Kit Upgrade",          price: "THB 60,000",          imageSrc: "http://img.b2bpic.net/free-photo/red-pads-pedal-wheel-car_114579-4035.jpg",          imageAlt: "Performance big brake kit"},
+          id: "p-wheels",          name: "Lightweight Forged Wheels",          price: "THB 65,000",          imageSrc: "http://img.b2bpic.net/free-photo/modern-sport-rims_53876-130635.jpg",          imageAlt: "Lightweight Forged Wheels"},
         {
-          id: "p-suspension",          name: "Adjustable Coilover Suspension",          price: "THB 45,000",          imageSrc: "http://img.b2bpic.net/free-photo/modern-automobile-mechanic-composition_23-2147881485.jpg",          imageAlt: "Adjustable coilover suspension"},
+          id: "p-brakes",          name: "Big Brake System",          price: "THB 70,000",          imageSrc: "http://img.b2bpic.net/free-photo/red-caliper-disc-brake-assembly-car_23-2151525790.jpg",          imageAlt: "Big Brake System"},
         {
-          id: "p-wheels",          name: "Lightweight Alloy Wheels",          price: "THB 50,000",          imageSrc: "http://img.b2bpic.net/free-photo/look-from-white-car-white-house_8353-1201.jpg",          imageAlt: "Set of lightweight alloy wheels"},
+          id: "p-aero",          name: "Carbon Fiber Aerodynamics",          price: "THB 85,000",          imageSrc: "http://img.b2bpic.net/free-photo/red-sports-car-with-carbon-fiber-wing_23-2151525776.jpg",          imageAlt: "Carbon Fiber Aerodynamics"},
         {
-          id: "p-bodykit",          name: "Aerodynamic Body Kit",          price: "THB 90,000",          imageSrc: "http://img.b2bpic.net/free-photo/f1-racing-24-hours-le-mans-render-3d-illustration_654080-353.jpg",          imageAlt: "Aggressive aerodynamic body kit"},
+          id: "p-turbo",          name: "Custom Turbocharger Upgrade",          price: "THB 120,000",          imageSrc: "http://img.b2bpic.net/free-photo/auto-parts-boost-turbine-isolated-white-background-3d-render_73932-1550.jpg",          imageAlt: "Custom Turbocharger Upgrade"},
       ]}
-      title="Performance Parts You Can Trust"
-      description="Browse our selection of premium aftermarket parts, hand-picked for quality and performance. Upgrade your vehicle with the best components on the market."
+      title="Exclusive Performance Upgrades"
+      description="Discover our curated selection of high-quality components designed to push your vehicle's boundaries."
     />
   </div>
 
@@ -208,12 +208,12 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       names={[
-        "Thai Car Club",        "Racing Crew BKK",        "Speed Addicts Thailand",        "Custom Car Forum",        "Gearheads Nation",        "Performance Garage",        "Tuned Car Society"]}
-      title="Trusted by Car Enthusiasts & Clubs"
-      description="Our reputation is built on exceptional service and stunning results, earning the loyalty of countless car lovers and respected automotive communities."
+        "Speed Society",        "Custom Builds Thailand",        "Track Day Warriors",        "Performance Enthusiasts Club",        "Auto Modding Group"]}
+      title="Join the KSI RACING Family"
+      description="Connect with a passionate community of car enthusiasts and share your ultimate driving experiences."
       buttons={[
         {
-          text: "Follow us on Facebook",          href: "https://facebook.com/KSIRACING"},
+          text: "Share Your Build",          href: "mailto:share@ksiracing.com"},
       ]}
     />
   </div>
@@ -223,12 +223,12 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "sparkles-gradient"}}
-      text="Ready to transform your ride? Get in touch with KSI RACING today for a consultation or quote. Your ultimate driving experience awaits."
+      text="Ready to Ignite Your Ride? Our team is here to answer your questions and help you start your performance journey. Reach out today!"
       buttons={[
         {
-          text: "Call Us Now",          href: "tel:+6612345678"},
+          text: "Call Us",          href: "tel:+66987654321"},
         {
-          text: "Email Us",          href: "mailto:info@ksiracing.com"},
+          text: "Email Us",          href: "mailto:support@ksiracing.com"},
       ]}
     />
   </div>
@@ -237,18 +237,18 @@ export default function LandingPage() {
       <FooterMedia
       imageSrc="http://img.b2bpic.net/free-photo/large-modern-architecture-hall_181624-239.jpg"
       imageAlt="Dynamic racing background with car modifications"
-      logoText="KSI RACING"
+      logoText="Innovating Performance, Driving Passion."
       columns={[
         {
           title: "Services",          items: [
             {
               label: "Engine Tuning",              href: "#services"},
             {
-              label: "Performance Parts",              href: "#products"},
+              label: "Suspension",              href: "#services"},
             {
-              label: "Custom Fabrication",              href: "#services"},
+              label: "Brake Systems",              href: "#services"},
             {
-              label: "Suspension Upgrades",              href: "#services"},
+              label: "Aerodynamics",              href: "#services"},
           ],
         },
         {
@@ -256,9 +256,9 @@ export default function LandingPage() {
             {
               label: "About Us",              href: "#about"},
             {
-              label: "Reviews",              href: "#reviews"},
+              label: "Client Stories",              href: "#reviews"},
             {
-              label: "Our Team",              href: "#"},
+              label: "Contact Us",              href: "#contact"},
             {
               label: "Careers",              href: "#"},
           ],
